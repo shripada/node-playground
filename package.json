@@ -1,0 +1,19 @@
+{
+    "name": "js-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec babel-node src/index.js"
+    },
+    "keywords": [],
+    "author": "Shripada <shripada@robosoftin.com> (Robosoft Technologies Pvt Ltd)",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "7.15.0",
+        "@babel/node": "7.14.9",
+        "@babel/preset-env": "7.15.0",
+        "nodemon": "2.0.12"
+    }
+}
